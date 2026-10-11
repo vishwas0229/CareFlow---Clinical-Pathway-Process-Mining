@@ -14,3 +14,9 @@ data/processed/*.csv
 
 # Power BI temporary files
 *.tmp
+
+# Local backup files
+*.bak
+
+# Generated analysis reports
+reports/*.csv
