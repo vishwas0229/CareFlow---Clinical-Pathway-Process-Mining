@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Conda and IDE
+.ipynb_checkpoints/
+.vscode/
+
+# Local generated datasets
+data/raw/*.csv
+data/processed/*.csv
+
+# Power BI temporary files
+*.tmp
