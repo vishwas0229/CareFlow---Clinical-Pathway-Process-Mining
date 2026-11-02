@@ -1,0 +1,501 @@
+Case_ID,Actual_Pathway,Final_Activity,Starts_Registration,Triage_Before_Consultation,Valid_Final_Outcome,Chronological_Timestamps,No_Consecutive_Duplicate_Activities,Checks_Passed,Total_Checks,All_Checks_Passed
+P0001,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0002,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0003,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0004,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0005,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0006,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0007,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0008,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0009,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0010,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0011,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0012,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0013,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0014,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0015,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0016,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0017,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0018,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0019,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0020,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0021,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0022,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0023,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0024,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0025,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0026,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0027,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0028,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0029,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0030,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0031,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0032,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0033,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0034,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0035,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0036,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0037,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0038,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0039,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0040,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Admission,Admission,True,True,True,True,True,5,5,True
+P0041,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0042,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0043,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0044,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0045,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0046,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0047,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0048,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0049,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0050,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Admission,Admission,True,True,True,True,True,5,5,True
+P0051,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0052,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0053,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0054,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0055,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0056,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0057,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0058,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0059,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0060,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0061,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0062,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0063,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0064,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0065,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0066,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0067,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0068,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0069,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0070,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0071,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0072,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0073,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0074,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0075,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0076,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0077,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0078,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0079,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0080,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0081,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0082,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0083,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0084,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0085,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0086,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0087,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0088,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0089,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0090,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0091,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0092,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0093,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0094,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0095,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0096,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0097,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0098,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0099,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0100,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0101,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0102,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0103,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0104,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0105,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0106,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0107,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Admission,Admission,True,True,True,True,True,5,5,True
+P0108,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0109,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0110,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0111,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0112,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Admission,Admission,True,True,True,True,True,5,5,True
+P0113,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0114,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0115,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0116,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0117,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0118,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0119,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0120,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0121,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0122,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0123,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0124,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0125,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0126,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0127,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0128,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0129,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0130,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0131,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0132,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0133,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0134,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0135,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0136,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0137,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0138,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0139,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0140,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0141,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0142,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0143,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Admission,Admission,True,True,True,True,True,5,5,True
+P0144,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0145,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0146,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0147,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0148,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0149,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0150,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0151,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0152,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0153,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0154,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0155,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0156,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0157,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0158,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0159,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0160,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0161,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0162,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0163,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0164,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0165,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0166,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0167,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0168,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0169,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0170,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0171,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0172,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0173,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0174,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0175,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0176,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0177,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0178,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0179,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0180,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0181,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0182,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0183,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0184,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0185,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0186,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0187,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0188,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0189,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0190,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0191,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0192,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0193,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0194,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0195,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0196,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0197,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0198,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0199,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0200,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0201,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0202,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0203,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0204,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0205,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0206,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0207,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0208,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0209,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0210,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0211,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0212,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0213,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0214,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0215,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0216,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0217,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0218,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0219,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0220,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0221,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0222,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0223,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0224,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0225,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0226,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0227,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0228,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0229,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0230,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0231,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0232,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0233,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0234,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0235,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0236,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0237,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0238,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0239,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0240,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0241,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0242,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0243,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0244,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0245,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0246,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0247,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0248,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0249,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0250,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0251,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0252,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0253,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0254,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0255,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0256,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0257,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0258,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0259,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0260,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0261,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0262,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0263,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0264,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0265,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0266,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0267,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0268,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0269,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0270,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0271,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0272,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0273,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0274,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0275,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0276,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0277,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0278,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0279,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0280,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0281,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0282,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0283,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0284,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0285,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0286,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0287,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0288,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0289,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0290,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0291,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0292,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0293,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0294,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0295,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0296,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0297,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0298,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0299,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0300,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0301,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0302,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0303,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0304,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0305,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0306,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0307,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0308,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0309,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0310,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0311,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0312,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0313,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0314,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0315,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0316,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0317,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0318,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0319,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0320,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Admission,Admission,True,True,True,True,True,5,5,True
+P0321,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0322,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0323,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0324,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0325,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0326,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0327,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0328,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0329,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0330,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0331,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0332,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0333,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0334,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0335,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Admission,Admission,True,True,True,True,True,5,5,True
+P0336,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0337,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0338,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0339,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0340,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0341,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0342,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0343,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0344,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0345,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0346,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0347,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0348,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0349,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0350,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0351,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0352,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0353,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0354,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0355,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0356,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0357,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0358,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0359,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0360,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0361,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0362,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0363,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0364,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0365,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0366,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0367,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0368,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0369,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0370,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0371,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0372,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0373,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0374,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0375,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0376,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0377,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0378,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0379,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0380,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0381,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0382,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0383,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0384,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0385,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0386,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0387,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0388,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0389,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0390,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0391,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0392,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Admission,Admission,True,True,True,True,True,5,5,True
+P0393,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0394,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0395,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0396,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0397,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0398,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0399,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0400,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0401,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0402,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0403,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0404,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0405,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0406,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0407,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0408,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0409,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0410,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0411,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0412,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0413,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0414,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0415,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Admission,Admission,True,True,True,True,True,5,5,True
+P0416,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0417,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0418,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0419,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0420,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0421,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Admission,Admission,True,True,True,True,True,5,5,True
+P0422,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0423,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0424,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0425,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0426,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0427,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0428,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0429,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0430,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0431,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0432,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0433,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0434,Registration -> Triage -> Doctor_Consultation -> Admission,Admission,True,True,True,True,True,5,5,True
+P0435,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0436,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0437,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0438,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0439,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0440,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0441,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0442,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0443,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0444,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0445,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0446,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0447,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0448,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0449,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0450,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0451,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0452,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0453,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0454,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0455,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0456,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0457,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0458,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0459,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0460,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0461,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0462,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0463,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0464,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0465,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0466,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0467,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0468,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0469,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0470,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0471,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0472,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0473,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0474,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0475,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0476,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0477,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0478,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0479,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0480,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0481,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0482,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0483,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0484,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0485,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0486,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0487,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0488,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0489,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0490,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0491,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0492,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0493,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0494,Registration -> Triage -> Doctor_Consultation -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0495,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0496,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Admission,Admission,True,True,True,True,True,5,5,True
+P0497,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0498,Registration -> Triage -> Doctor_Consultation -> Laboratory -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0499,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
+P0500,Registration -> Triage -> Doctor_Consultation -> X_Ray -> Doctor_Review -> Discharge,Discharge,True,True,True,True,True,5,5,True
